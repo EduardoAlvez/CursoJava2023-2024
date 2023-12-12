@@ -4,7 +4,7 @@ public class Jantar {
 	
 	public static void main(String[] args) {
 		
-		Comida alimento1 = new Comida("Feijão",0.230);
+		Comida alimento1 = new Comida("Feijao",0.230);
 		Comida alimento2 = new Comida("Arroz",0.170);
 		
 		Pessoa pessoa1 = new Pessoa("Fernanda", 70.0);
