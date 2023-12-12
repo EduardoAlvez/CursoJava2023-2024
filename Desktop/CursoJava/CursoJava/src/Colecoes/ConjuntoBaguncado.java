@@ -9,6 +9,7 @@ public class ConjuntoBaguncado {
 
 		HashSet conjunto = new HashSet();
 
+		// SET nao e possivel acessar pelo indice!!!
 		// ELE CONVERTE TUDO PARA OBJETO. NAO ACEITA TIPOS PRIMITIVOS;
 		conjunto.add(1.2);
 		conjunto.add(true);
@@ -26,7 +27,6 @@ public class ConjuntoBaguncado {
 		System.out.println("Tem? "+conjunto.contains('x'));
 		
 		Set nums = new HashSet(); // FUNCIONA COMO HASHSET, POREM O SET PARECE SER UMA INTERFACE...;
-		
 		nums.add(1);
 		nums.add(2);
 		nums.add(3);
