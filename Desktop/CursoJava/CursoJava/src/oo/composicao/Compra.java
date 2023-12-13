@@ -12,13 +12,13 @@ public class Compra {
 	}
 
 	void adcionarItens(Item item) {
-		if (!this.itens.contains(item))
+		if (!this.itens.contains(item)) {
 			this.itens.add(item);
 			item.compra = this;
+		} else {
+			this.itens.get(itens.hashCode()).quantidade += 1;
 		}
-		else {
-			this.itens.get(item.hashCode()).quantidade += 1;
-		}
+	}
 
 	public double obterValorToral() {
 		double total = 0;
