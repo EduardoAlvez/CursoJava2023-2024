@@ -1,6 +1,7 @@
 package oo.composicao;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class Compra {
 
@@ -16,9 +17,16 @@ public class Compra {
 			this.itens.add(item);
 			item.compra = this;
 		} else {
-			this.itens.get(itens.hashCode()).quantidade += 1;
+			for (Item ite : itens) {
+				if (ite.nome.equals(item.nome))
+					ite.quantidade += item.quantidade;
+			}
 		}
 	}
+
+//	void adicionarItens(String nome, double preco, int quantidade) {
+//		adcionarItens(new Item(nome, preco, quantidade));
+//	}
 
 	public double obterValorToral() {
 		double total = 0;
@@ -26,6 +34,23 @@ public class Compra {
 			total += item.quantidade * item.preco;
 		}
 		return total;
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(cliente);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Compra other = (Compra) obj;
+		return Objects.equals(cliente, other.cliente);
 	}
 
 }
