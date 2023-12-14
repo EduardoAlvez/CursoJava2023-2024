@@ -5,10 +5,18 @@ import java.util.List;
 
 public class Compra {
 
-	private List<Item> itens = new ArrayList<>();
+	List<Item> itens = new ArrayList<>();
 
 	Compra() {
 
+	}
+	double Valores(){
+		double valorTotal = 0;
+			for (Item item : itens) {
+				valorTotal += item.total();
+			}
+		
+		return valorTotal;
 	}
 
 	void adicionarItem(Item item) {
