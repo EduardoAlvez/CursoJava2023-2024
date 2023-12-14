@@ -4,10 +4,12 @@ import java.util.Objects;
 
 public class Produto {
 	
+	int id = 1;
 	String nome;
 	double valor;
 	
 	Produto(String nome, double valor){
+		this.id++; 
 		this.nome = nome;
 		this.valor = valor;
 	}

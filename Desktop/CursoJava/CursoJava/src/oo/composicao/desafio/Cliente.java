@@ -12,10 +12,11 @@ public class Cliente {
 		this.nome = nome;
 	}
 
+	
 	double obterValorTotal() {
 		double total = 0;
 		for (Compra compra : compras) {
-			total = compra.Valores();
+			total = compra.valores();
 		}
 		return total;
 	}
