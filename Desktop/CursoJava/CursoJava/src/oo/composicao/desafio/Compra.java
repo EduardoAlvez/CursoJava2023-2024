@@ -37,7 +37,7 @@ public class Compra {
 		return valorTotal;
 	}
 
-	// SEGUNDA FORMA DE SER FEITA, NÃO TESTADO!!!
+	// SEGUNDA FORMA DE SER FEITA, TESTADO!!!
 	void adicionarItem(String nome, double valor, int quantidade) {
 		if(quantidade != 0) {
 			boolean adiciona = true;
