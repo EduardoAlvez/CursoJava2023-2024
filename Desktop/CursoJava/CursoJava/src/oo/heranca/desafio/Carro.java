@@ -16,8 +16,10 @@ public class Carro {
 	String freiar() {
 		if (velocidadeAtual >= 5)
 			this.velocidadeAtual -= 5;
-		else
-			return "O MEU SINHOR O CARRO TA PARADO SUA JAMANTA.";
+		else {
+			this.velocidadeAtual = 0;
+			return "O MEU SINHOR O CARRO TA PARADO SUA JAMANTA.";			
+		}
 
 		return "psssiii pssiii...";
 	}
