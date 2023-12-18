@@ -39,7 +39,7 @@ public class Compra {
 
 	// SEGUNDA FORMA DE SER FEITA, TESTADO!!!
 	void adicionarItem(String nome, double valor, int quantidade) {
-		if(quantidade != 0) {
+		if (quantidade != 0) {
 			boolean adiciona = true;
 			Produto i = new Produto(nome, valor);
 			// VERIFICA SE O ITEM JÁ EXISTE, NESSE CASO ELE SOMA A QUANTIDADE;
@@ -49,8 +49,8 @@ public class Compra {
 					adiciona = false;
 				}
 			}
-			if(adiciona)
-				itens.add(new Item(i, quantidade));			
+			if (adiciona)
+				itens.add(new Item(i, quantidade));
 		}
 	}
 
@@ -63,6 +63,20 @@ public class Compra {
 			}
 		}
 		itens.add(item);
+	}
+
+	// FEITO NO CURSO, ainda a ser testado no MAIN
+	void adicionarItem(Produto produto, int quantidade) {
+		boolean adicionar = true;
+		for (Item item : itens) {
+			if (item.equals(new Item(produto, quantidade))) {
+				item.quantidade += quantidade;
+				adicionar = false;
+			}
+		}
+		if (adicionar) {
+			itens.add(new Item(produto, quantidade));
+		}
 	}
 
 	boolean removerItem(Item item) {

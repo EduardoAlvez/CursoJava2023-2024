@@ -16,8 +16,17 @@ public class Cliente {
 	double obterValorTotal() {
 		double total = 0;
 		for (Compra compra : compras) {
-			total = compra.valores();
+			total += compra.valores();
 		}
 		return total;
+	}
+	
+	void adicionarCompra(Compra compra) {
+		this.compras.add(compra);
+	}
+	
+	List<Compra> listaDeCompra(){
+		//ArrayList<Compra> compra = new ArrayList<>();
+		return this.compras;
 	}
 }
