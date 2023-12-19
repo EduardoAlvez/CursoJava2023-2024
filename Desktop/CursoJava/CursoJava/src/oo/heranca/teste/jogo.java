@@ -1,4 +1,7 @@
-package oo.heranca;
+package oo.heranca.teste;
+
+import oo.heranca.Heroi;
+import oo.heranca.Monstro;
 
 public class jogo {
 
@@ -9,10 +12,8 @@ public class jogo {
 		monstro.x = 10;
 		monstro.y = 10;
 
-		Heroi heroi = new Heroi();
+		Heroi heroi = new Heroi(10, 11);
 		heroi.vida = 110;
-		heroi.x = 10;
-		heroi.y = 11;
 
 		System.out.printf("O Monstro Orc tem %d de HP, OH MEU DEUS ELE É IMBATIVEL!\n"
 				, monstro.vida);

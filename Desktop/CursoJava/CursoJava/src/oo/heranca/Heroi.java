@@ -2,6 +2,9 @@ package oo.heranca;
 
 public class Heroi extends Jogador {
 
+	public Heroi(int x, int y){
+		super(x,y);
+	}
 //	//	SOBRECARGA DE MÉTODO
 //	boolean atacar(Jogador oponente) {
 //
@@ -16,8 +19,8 @@ public class Heroi extends Jogador {
 //			return false;
 //		}
 //	}
-	
-	boolean atacar (Jogador oponente) {
+	@Override
+	public boolean atacar (Jogador oponente) {
 		boolean ataqueHeroico = super.atacar(oponente);
 		boolean ataqueHeroicoDuplo = super.atacar(oponente);
 		boolean ataqueHeroicoDuplo3 = super.atacar(oponente);
