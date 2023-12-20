@@ -11,8 +11,11 @@ public class CarroTeste {
 		System.out.println(ferrari.toString());
 		ferrari.acelerar();
 		ferrari.acelerar();
+		
+		ferrari.ligaTurbo();
 		ferrari.acelerar();
 		
+		ferrari.desligarTurbo();
 //		System.out.println(ferrari.acelerar());
 //		System.out.println(ferrari.acelerar());
 		

@@ -1,20 +1,20 @@
 package oo.heranca.desafio;
 
-public class Carro {
+public abstract class Carro {
 
 	final int VELOCIDADE_MAXIMA;
 	protected int velocidadeAtual = 0;
-	protected int acelerada = 5;
+	private int acelerada = 5;
 
 	Carro(int velocidadeMaxima){
 		this.VELOCIDADE_MAXIMA = velocidadeMaxima;
 	}
 	
 	public void acelerar() {
-		if (velocidadeAtual + acelerada > VELOCIDADE_MAXIMA)
+		if (velocidadeAtual + getAcelerada() > VELOCIDADE_MAXIMA)
 			this.velocidadeAtual = VELOCIDADE_MAXIMA;
 		else
-			velocidadeAtual += acelerada;
+			velocidadeAtual += getAcelerada();
 		//	return "TA MALUCO MERMAO TAMO A 120 E TU QUE ACELERAR, EITA BICO DOIDOOO.";
 
 		//return "VRUUUM VRUUMM...";
@@ -35,5 +35,16 @@ public class Carro {
 	public String toString() {
 		return "Carro velocidadeAtual: " + velocidadeAtual ;
 	}
+
+	public int getAcelerada() {
+		return acelerada;
+	}
+
+	public void setAcelerada(int acelerada) {
+		this.acelerada = acelerada;
+	}
+
+	
 	
 }
+

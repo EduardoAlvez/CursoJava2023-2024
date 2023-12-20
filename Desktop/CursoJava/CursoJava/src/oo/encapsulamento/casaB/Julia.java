@@ -1,6 +1,6 @@
-package ooencapsulamento.casaB;
+package oo.encapsulamento.casaB;
 
-import ooencapsulamento.casaA.Ana;
+import oo.encapsulamento.casaA.Ana;
 
 public class Julia {
 
