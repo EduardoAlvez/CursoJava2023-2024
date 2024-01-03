@@ -5,9 +5,8 @@ import java.util.List;
 import java.util.function.Consumer;
 
 public class Comsumidor {
-
 	public static void main(String[] args) {
-		
+
 		Consumer<Produto> imprimirNome = p -> System.out.println(p.NOME);
 		
 		Produto p1 = new Produto("Bolacha", 3.9, 0.02);
