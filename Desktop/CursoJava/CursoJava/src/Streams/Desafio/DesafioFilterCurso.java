@@ -15,10 +15,6 @@ public class DesafioFilterCurso {
         Produto p5 = new Produto("Meias",29.50,0.85);
 
         List<Produto> stock = Arrays.asList(p1,p2,p3,p4,p5);
-
-
-
-
         stock.stream()
                 .filter(produto -> produto.getDesconto()>= 0.70)
                 .filter(produto -> produto.getValorFrete() == 0)
