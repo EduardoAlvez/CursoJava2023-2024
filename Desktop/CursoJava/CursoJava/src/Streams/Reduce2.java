@@ -7,7 +7,7 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 
 public class Reduce2 {
-	public static void main(String[] args) {
+	public static void main(String args[]) {
 		
 		Predicate<Aluno> aprovado	= al -> al.nota >=7;
 		Function<Aluno, Double> apenasNota = al -> al.nota;
