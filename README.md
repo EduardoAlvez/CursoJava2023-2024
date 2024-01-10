@@ -1,3 +1,3 @@
-# JAVA PROJETOS
+# Curso de Java
 
-Projeto do curso de java da Udemy.
+Curso de java da Udemy.
