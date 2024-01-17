@@ -12,9 +12,9 @@ public class Produto {
         this.desconto = desconto;
     }
 
-    private void definirFrete(double valor){
-        setValorFrete(valor <= 100 ? 0: valor<=500 ? 150: valor<=1000 ? 200:300);
-    }
+//    private void definirFrete(double valor){
+//        setValorFrete(valor <= 100 ? 0: valor<=500 ? 150: valor<=1000 ? 200:300);
+//    }
 
     public String getNome() {
         return nome;

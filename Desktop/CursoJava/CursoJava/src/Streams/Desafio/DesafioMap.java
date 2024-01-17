@@ -1,7 +1,5 @@
 package Streams.Desafio;
 
-import Streams.Util;
-
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
@@ -16,7 +14,7 @@ public class DesafioMap {
         */
 
     public static void main(String[] args) {
-//        Consumer<Integer> println = System.out::println;
+        Consumer<Integer> println = System.out::println;
         Function<Integer,String> numeroParaStringBinario = n -> Integer.toBinaryString(n);
         UnaryOperator<String> ivercao = str -> new StringBuilder(str).reverse().toString();
         Function<String, Integer> converter = str -> Integer.parseInt(str, 2);
@@ -27,6 +25,6 @@ public class DesafioMap {
 //                .map(Integer::toBinaryString) PODEMOS FAZER ASSIM, MAIS SIMPLES...
                 .map(ivercao)
                 .map(converter)
-                .forEach(Util.printl);
+                .forEach(println);
     }
 }

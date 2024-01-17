@@ -2,8 +2,6 @@ package Streams;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Function;
-import java.util.function.Predicate;
 
 public class Filter {
     public static void main(String[] args) {
@@ -16,8 +14,8 @@ public class Filter {
         List<Aluno> turma = Arrays.asList(a1,a2,a3,a4);
 
 //        PODEMOS CIRAR DE FORMA SEPARA AS FUNÇOES LAMBDAS
-        Predicate<Aluno> verificadorAprovado = aluno -> aluno.nota >= 7;
-        Function<Aluno,String> menssagemCarinhosa = aluno -> "O aluno(a) "+aluno.nome+", Foi Aprovado(a) pivete, manda bala.";
+//        Predicate<Aluno> verificadorAprovado = aluno -> aluno.nota >= 7;
+//        Function<Aluno,String> menssagemCarinhosa = aluno -> "O aluno(a) "+aluno.nome+", Foi Aprovado(a) pivete, manda bala.";
 
 //        PODEMOS ENTAO, FAZER DESSA FORMA OU INTRODIZIR OS METODOS LAMBDAS NO LUGAR ABAIXO...
         turma.stream()

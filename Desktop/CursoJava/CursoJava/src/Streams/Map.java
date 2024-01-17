@@ -2,7 +2,6 @@ package Streams;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Locale;
 import java.util.function.UnaryOperator;
 
 public class Map {
@@ -18,11 +17,11 @@ public class Map {
 
         System.out.println("\nUsando composição...");
         marcas.stream()
-                .map(Util.maiuscula)
-//                .map(maiuscula) PODEMOS FAZER DESSA FORMA TB...
+//                .map(Util.maiuscula) PODEMOS FAZER DESSA FORMA TB...
+                .map(maiuscula) 
                 .map(primeiraLetra)
-//                .map(grito) PODEMOS FAZER DESSA FORMA TB...
-                .map(Util::grito)
+                .map(grito) 
+//                .map(Util::grito) PODEMOS FAZER DESSA FORMA TB...
                 .forEach(Util.printl);
 
     }

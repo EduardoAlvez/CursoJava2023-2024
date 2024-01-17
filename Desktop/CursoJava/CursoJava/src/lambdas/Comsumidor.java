@@ -20,7 +20,7 @@ public class Comsumidor {
 		
 		List<Produto> listona = Arrays.asList(p1,p2,p3);
 		
-//		listona.forEach(imprimirNome);
+		listona.forEach(imprimirNome);
 //		listona.forEach(p -> System.out.println(p.NOME));
 		listona.forEach(System.out::println);
 	}

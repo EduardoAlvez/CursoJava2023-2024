@@ -1,6 +1,5 @@
 package Streams;
 
-import java.util.Locale;
 import java.util.function.Consumer;
 import java.util.function.UnaryOperator;
 
