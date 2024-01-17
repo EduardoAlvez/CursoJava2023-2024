@@ -1,4 +1,4 @@
-![Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Udemy_logo.svg/2560px-Udemy_logo.svg.png)
+![Logo](https://freelogopng.com/images/all_img/1683006915udemy-logo-white.png)
 
 # Curso de Java
 
@@ -14,8 +14,8 @@ Curso de java da Udemy.
 - Lambdas DONE
 - Stream API DONE
 - Tratamento de erros DONE
-- Generics Done
-- Java Desktop Com swing
+- Generics DONE
+- Java Desktop Com swing ...
 - Banco de Dados Relacional
 - Banco de Dados com JDBC
 
