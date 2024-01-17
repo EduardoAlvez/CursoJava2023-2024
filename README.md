@@ -14,8 +14,8 @@ Curso de java da Udemy.
 - Lambdas DONE
 - Stream API DONE
 - Tratamento de erros DONE
-- Generics Done
-- Java Desktop Com swing
+- Generics DONE
+- Java Desktop Com swing ...
 - Banco de Dados Relacional
 - Banco de Dados com JDBC
 
