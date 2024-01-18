@@ -27,8 +27,8 @@ public class Temp {
 		
 		tabuleiro.alternarMarcacao(2, 0);
 		tabuleiro.alternarMarcacao(2, 1);
-		tabuleiro.abrir(2, 2);
-//		tabuleiro.alternarMarcacao(2, 2);
+//		tabuleiro.abrir(2, 2);
+		tabuleiro.alternarMarcacao(2, 2);
 		
 
 	}
