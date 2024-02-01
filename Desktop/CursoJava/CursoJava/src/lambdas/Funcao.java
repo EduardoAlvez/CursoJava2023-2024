@@ -13,16 +13,17 @@ public class Funcao {
 
 		Function<String, String> exclamacao = tring -> tring + " !!!";
 
-		Function<String, String> interrocacao = tring -> tring + " ???";
+		Function<String, String> interrogacao = tring -> tring + " ???";
 
 		System.out.println(parOuImpar.apply(nume));
 		System.out.println(parOuImpar.andThen(formatado).apply(nume));
 		System.out.println(parOuImpar.andThen(formatado).andThen(exclamacao).apply(nume));
 
+		
 		String resultadoFinal = parOuImpar.andThen(formatado).andThen(exclamacao).apply(nume);
 		System.out.println(resultadoFinal);
 
-		String resultadoFinal2 = parOuImpar.andThen(formatado).andThen(interrocacao).apply(nume);
+		String resultadoFinal2 = parOuImpar.andThen(formatado).andThen(interrogacao).apply(nume);
 		System.out.println(resultadoFinal2);
 	}
 }
