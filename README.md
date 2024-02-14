@@ -2,25 +2,35 @@
 
 # Curso de Java
 
-Curso de java da Udemy.
+Curso de Java 2022 COMPLETO da Udemy.
 
 ## Assuntos abordados nesse curso
 
-- Fundamentos DONE
-- Estruturas de contorle DONE
-- Classes e Métodos DONE
-- Arrays e Collections DONE
-- Orientação a Objeto DONE
-- Lambdas DONE
-- Stream API DONE
-- Tratamento de erros DONE
-- Generics DONE
-- Java Desktop Com swing ...
-- Banco de Dados Relacional
-- Banco de Dados com JDBC
+- Fundamentos **[COMPLETO]**
+- Estruturas de Contorle **[COMPLETO]**
+- Classes e Métodos **[COMPLETO]**
+- Arrays e Collections **[COMPLETO]**
+- Orientação a Objeto **[COMPLETO]**
+- Lambdas **[COMPLETO]**
+- Stream API **[COMPLETO]**
+- Tratamento de Erros **[COMPLETO]**
+- Generics **[COMPLETO]**
+- Java Desktop Com Swing **[COMPLETO]**
+- Banco de Dados Relacional **[COMPLETO]**
+- Banco de Dados com JDBC **[COMPLETO]**
+- Java Persistence API (JPA)
+- Modularidade em Java
+- JavaFX
+- Conceitos sobre Web
+- Spring Boot
+- Banco de Dados não Relacional (NoSQL)
+  
 
 ## Projeto
 
-Projeto relacionado
-
 [Campo Minado](https://github.com/EduardoAlvez/CampoMinado)
+[Calculadora](https://github.com/EduardoAlvez/Calculadora)
+
+
+
+
