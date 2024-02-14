@@ -2,7 +2,7 @@
 
 # Curso de Java
 
-Curso de java da Udemy.
+Curso de Java 2022 COMPLETO da Udemy.
 
 ## Assuntos abordados nesse curso
 
@@ -28,6 +28,6 @@ Curso de java da Udemy.
 
 ## Projeto
 
-Projeto relacionado
+Projeto Campo Minado.
 
 [Campo Minado](https://github.com/EduardoAlvez/CampoMinado)
