@@ -22,7 +22,7 @@ public class FabricaConexao {
 		}
 	}
 	
-	@SuppressWarnings("unused")
+
 	private static Properties getProperties() throws IOException {
 		Properties prop = new Properties();
 		String caminho = "/conexao.properties";

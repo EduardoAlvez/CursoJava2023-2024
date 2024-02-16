@@ -27,7 +27,7 @@ public class ObterUsuarios {
 //		PODEMOS FAZER AS LINHAS 20 ATÉ A 26, EM DESSA FORMA SIMPLIFICADA.
 		List<Usuario> usuarios = em
 				.createQuery("SELECT u FROM Usuario u", Usuario.class)
-				.setMaxResults(3)
+				.setMaxResults(8)
 				.getResultList();
 		
 		usuarios.stream().forEach(u -> 

@@ -50,7 +50,7 @@ public class DAO {
 		
 	}
 	
-	@SuppressWarnings("unused")
+
 	private Connection getConexao() {
 		
 		try {
