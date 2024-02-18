@@ -19,17 +19,18 @@ public class DAO<M> {
 		try {
 			emf = Persistence.createEntityManagerFactory("CursoJava-JPA");
 		} catch (Exception e) {
+			e.printStackTrace();
 			// LOGAR -> log4j
 		}
 	}
 	
 //	CONSTRUTORES
 	public DAO() {
-//		NAO SEI PQ???
 		this(null);
 	}
 
 	public DAO(Class<M> classe) {
+		super();
 		this.classe = classe;
 		em = emf.createEntityManager();
 	}
@@ -58,6 +59,10 @@ public class DAO<M> {
 //	SOBRECARGA
 	public List<M> obterTodos(){
 		return obterTodos(10, 0);
+	}
+	
+	public M obterPorId(long id){
+		return em.find(classe,id);
 	}
 	
 	public List<M> obterTodos(int quatidade, int maximo){

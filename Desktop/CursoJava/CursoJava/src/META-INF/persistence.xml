@@ -7,6 +7,15 @@
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         
         <class>modelo.basico.Usuario</class>
+        <class>modelo.basico.Produto</class>
+        <class>modelo.umpraum.Assento</class>
+        <class>modelo.umpraum.Cliente</class>
+        <class>modelo.umpramuitos.Pedido</class>
+        <class>modelo.umpramuitos.ItemPedido</class>
+        <class>modelo.muitospramuitos.Tio</class>
+        <class>modelo.muitospramuitos.Sobrinho</class>
+        <class>modelo.muitospramuitos.Ator</class>
+        <class>modelo.muitospramuitos.Filme</class>
         
         <properties>
             <property name="javax.persistence.jdbc.driver"
