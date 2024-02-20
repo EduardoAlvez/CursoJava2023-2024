@@ -76,6 +76,21 @@ public class DAO<M> {
 		return query.getResultList();
 	}
 	
+	public List<M> consulta(String consulta,Object...args) {
+		TypedQuery<M> query = em.createNamedQuery(consulta, classe);
+		
+		for (int i = 0; i < args.length; i+=2) {
+			query.setParameter(args[i].toString(), args[i+1]);
+		}
+		
+		return query.getResultList();
+	}
+	
+	public M consultaUm(String consulta,Object...args){
+		List<M>lista = consulta(consulta, args);
+		return lista.isEmpty() ? null: lista.get(0);
+	}
+	
 	public DAO<M> fechar(){
 		em.close();
 		return this;

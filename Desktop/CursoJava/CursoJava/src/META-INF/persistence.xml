@@ -6,6 +6,8 @@
     <persistence-unit name="CursoJava-JPA">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         
+        <mapping-file>META-INF/consultas.xml</mapping-file>
+        
         <class>modelo.basico.Usuario</class>
         <class>modelo.basico.Produto</class>
         <class>modelo.umpraum.Assento</class>
@@ -16,6 +18,14 @@
         <class>modelo.muitospramuitos.Sobrinho</class>
         <class>modelo.muitospramuitos.Ator</class>
         <class>modelo.muitospramuitos.Filme</class>
+        <class>modelo.composicao.Endereco</class>
+        <class>modelo.composicao.Fornecedor</class>
+        <class>modelo.composicao.Funcionario</class>
+        <class>modelo.heranca.Pessoa</class>
+        <class>modelo.heranca.PessoaFisica</class>
+        <class>modelo.heranca.PessoaJuridica</class>
+        <class>modelo.heranca.Aluno</class>
+        <class>modelo.heranca.AlunoBolsista</class>
         
         <properties>
             <property name="javax.persistence.jdbc.driver"
