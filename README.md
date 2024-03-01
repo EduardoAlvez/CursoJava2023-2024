@@ -18,10 +18,10 @@ Curso de Java 2022 COMPLETO da Udemy.
 - Java Desktop Com Swing **[COMPLETO]**
 - Banco de Dados Relacional **[COMPLETO]**
 - Banco de Dados com JDBC **[COMPLETO]**
-- Java Persistence API (JPA)
-- Modularidade em Java
+- Java Persistence API (JPA) **[COMPLETO]**
+- Modularidade em Java **[COMPLETO]**
 - JavaFX
-- Conceitos sobre Web
+- Conceitos sobre Web **[COMPLETO]**
 - Spring Boot
 - Banco de Dados não Relacional (NoSQL)
   
