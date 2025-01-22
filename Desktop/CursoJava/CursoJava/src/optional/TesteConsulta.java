@@ -21,7 +21,7 @@ public class TesteConsulta {
 				.flatMap(Caminhao::getSeguroOpicional)
 				.map(Seguro::getDescricao)
 				.orElse("Sem Seguro");
-		
+		a
 		System.out.println("A cobertura é: "+ tipoDeSeguro);
 	}
 }
