@@ -22,7 +22,7 @@ Curso de Java 2022 COMPLETO da Udemy.
 - Modularidade em Java **[COMPLETO]**
 - JavaFX
 - Conceitos sobre Web **[COMPLETO]**
-- Spring Boot
+- Spring Boot **[COMPLETO]**
 - Banco de Dados não Relacional (NoSQL)
   
 
