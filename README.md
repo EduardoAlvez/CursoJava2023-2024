@@ -1,10 +1,12 @@
-![Logo](https://freelogopng.com/images/all_img/1683006915udemy-logo-white.png)
+<img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/f3e76fe1-70f5-4a71-b2e6-db3d780afa37" />
 
-# Curso de Java
+# Java
+
+Aqui está tudo que estudei durante minha jornnada de aprendiz e desenvolvedor java, os assunto aqui presente são de alguns cursos e tutoriais do youtube.
 
 Curso de Java 2022 COMPLETO da Udemy.
 
-## Assuntos abordados nesse curso
+## Assuntos aprendidos
 
 - Fundamentos **[COMPLETO]**
 - Estruturas de Contorle **[COMPLETO]**
